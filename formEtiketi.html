@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Etiketi</title>
+</head>
+<body>
+    <h1>Yeni Personel Ekleme Formu</h1>
+    <form action="personel_kayit.php"></form>
+    <label for="ad">Personel Adı : </label> <input type="text" id="ad">
+    <label for="birim">Birimi : </label>
+
+    <select name="Birim Seçiniz" id="birim">
+        <option value="bilişim">Bilişim</option>
+        <option value="insan_kaynakları">İnsan Kaynakları</option>
+        <option value="satin_alma">Satın Alma</option>
+    </select>
+    <label for="yas">Yaşı : </label><input type="number" id="yas">
+    <button type="submit">Kaydet</button>
+
+    
+</body>
+</html>
