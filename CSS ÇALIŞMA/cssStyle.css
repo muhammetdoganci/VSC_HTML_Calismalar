@@ -1,4 +1,32 @@
+*{
+    color: red;
+}
+
 h1{
     color: blue;
     background-color: orange;
+}
+
+h2{
+    color: green;
+    
+}
+
+.bold-font{
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.italic{
+    font-style: italic;
+}
+
+#title{
+    background-color: yellow;
+}
+
+a[target]{
+    background-color: black;
+
+
 }
