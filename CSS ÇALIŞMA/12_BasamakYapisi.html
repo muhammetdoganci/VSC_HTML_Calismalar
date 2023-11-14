@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basama Yapısı</title>
+    <!--
+        Aşağıdaki kod bloğunda inceleyecek olursak ikinci ve 3. kuralların her ikisi de yazı
+        tipini şekillendirmek istiyor. Böyle durumlarda ise tarayıcılar en son yazılan
+        kuralı geçerli görürler ve onu uygularlar.
+
+        Bu durumlarda öncelik vermek istediğiniz özelliğe !important anahtar kelimesini
+        kullanarak öncelik verebilirsiniz. Aşağıdaki kod bloğunda kullanımını gördüğünüz
+        !important kendisinden sonra gelen özellikleri ezerek yazı tipini yeşil olmasını
+        sağlayacaktır. Bunu diğer CSS özelliklerini öncüllendirmek içinde kullanabilirsiniz.
+    -->
+    <style>
+        p{
+            background: orange;
+            font-size: 24px;
+        }
+        p{
+            color: green !important;
+        }
+        p{
+            color: blue;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, in?</p>
+    
+</body>
+</html>

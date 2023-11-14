@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Öncelikleri</title>
+    <!--
+        Elemanın yazı rengini değiştirmek için farklı şekillerde kural yazılmıştır.
+        Tarayıcı bu kurallardan ilk olarak satır içi yazılan yeşil rengi uygulayacaktır.
+        Eğer satır içi kural yazmasaydık CSS kodlarındaki “#baslikID” ile tanımlanan
+        sarı rengi uygulayacaktır. Daha sonra “h1[title]” seçicisi ile tanımlanan aqua rengini
+        uygulayacaktır. Bu kurallar yukarıda yazılan tarayıcı örnekleri sırası ile uygulanır.
+    -->
+    <style>
+        *{ color: blueviolet; }
+        h1{ color: blue; }
+        .text-red { color: red; }
+        h1[title] { color: aqua; }
+        #baslikID { color: yellow; }
+    </style>
+</head>
+<body>
+    <h1 class="text-red" id="baslikID" title="Bu bir tooltiptir"
+    style="color: green;">Css Öncelikleri</h1>
+    
+</body>
+</html>
