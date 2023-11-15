@@ -1,0 +1,22 @@
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-image{
+    background-image: url(./anadolu_üniv.png);
+}
+.bg-image-no-repeat{
+    background-image: url(anadolu_üniv.png);
+    background-repeat: no-repeat;
+}
+.bg-image-position{
+    background-image: url(anadolu_üniv.png);
+    background-repeat: no-repeat;
+    background-position: 100px;
+}
+
+body{
+    height: 400vh;
+    background-image: url("anadolu_üniv.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
