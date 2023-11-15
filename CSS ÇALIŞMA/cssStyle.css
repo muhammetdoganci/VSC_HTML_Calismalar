@@ -28,5 +28,11 @@ h2{
 a[target]{
     background-color: black;
 
+}
 
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-image{
+    background-image: url(./anadolu_üniv.png);
 }
