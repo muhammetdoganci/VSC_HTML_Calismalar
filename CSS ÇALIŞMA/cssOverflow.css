@@ -1,3 +1,8 @@
+/*
+Overflow:Visible
+Tarayıcılar tarafından kullanılan varsayılan değerdir. Taşma kontrol edilmez. İçerik kutunun dışına
+taşar.
+
 .container{
     width: 200px;
     height: 200px;
@@ -6,3 +11,56 @@
     p{
     width: 250px;
     }
+    */
+
+    /*Overflow:Hidden
+    Taşmayı kırpmak istediğimizde kullanmamız gereken değerdir. Kutunun dışında kalan içerik gizlenir.
+    
+    .container{
+        width: 200px;
+        height: 200px;
+        border: 1px solid gray;
+        overflow: hidden;
+        }
+        p{
+        width: 250px;
+        }
+
+        */
+
+        /*
+        Overflow:Scroll & Overflow:Auto
+        Bu iki özellik taşan elemanları kutunun içinde kaydırarak göstermek için scrollbar oluşturur.
+        
+        .container{
+            width: 200px;
+            height: 200px;
+            border: 1px solid gray;
+            overflow: hidden;
+            overflow: auto;
+            }
+            p{
+            width: 250px;
+            }  
+            */
+             
+
+    /*
+    Overflow-X & Overflow-Y
+    Taşan içeriği kontrol ederken yatay ve dikeyde farklı görünmesini isteyebiliriz.
+    Overflow değerlerini yatay eksen için overflow-x özelliğine,
+    dikey eksen için overflow-y özelliğine atayarak içeriği kontrol edebiliriz.  
+    */
+    
+    .container{
+            width: 200px;
+            height: 200px;
+            border: 1px solid gray;
+            overflow-x: hidden;
+            overflow-y: auto;
+            }
+            p{
+            width: 250px;
+            } 
+            
+
